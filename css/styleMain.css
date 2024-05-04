@@ -1,0 +1,22 @@
+.details .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details .col-md-6 {
+    flex: 1;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+@media (max-width: 991.98px) {
+    .details .row {
+        flex-direction: column;
+    }
+    
+    .details .col-md-6 {
+        flex-basis: 100%;
+    }
+}
